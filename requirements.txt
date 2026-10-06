@@ -1,0 +1,4 @@
+numpy
+scipy
+matplotlib
+mpmath      # only needed by make_zero_lists.py
