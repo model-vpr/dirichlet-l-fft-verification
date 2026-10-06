@@ -3,7 +3,7 @@
 Companion code of the preprint
 
 > S. Georgieva, *Closed-Form Phase Prediction and Spectral-Leakage Modeling for the Explicit Formula of L(s, χ₃), with Blind FFT Detection*, VPR Research Ltd, 2026.
-> DOI: `10.5281/zenodo.XXXXXXX` *(Zenodo record of the preprint; replace after upload)*
+> DOI: `[10.5281/zenodo.23180120](https://doi.org/10.5281/zenodo.23180120)` 
 
 The nontrivial zeros of an L-function appear as peaks in the logarithmic Fourier transform of the prime-power sum ψ(x, χ)/√x. This code builds a **parameter-free forward model of the complex FFT spectrum** of that signal from the zero list alone — a closed-form phase for each FFT bin (Eq. 8 of the paper), a window-corrected single-zero amplitude (Eq. 5), and a multi-zero leakage model using the exact DTFT of the Kaiser window (Eq. 11) — and checks it against the signal computed from the primes, for the quadratic character χ₃ (17 reference zeros, γ ≤ 47.5) and, as a replication, for ζ(s) (60 zeros, γ ≤ 163).
 
@@ -109,7 +109,7 @@ See Section 4 of the paper. In short: the reference set for χ₃ is the first 1
                   Explicit Formula of $L(s,\chi_3)$, with Blind FFT Detection},
   year         = {2026},
   publisher    = {VPR Research Ltd},
-  doi          = {10.5281/zenodo.XXXXXXX}
+  doi          = {10.5281/zenodo.23180120}
 }
 ```
 
@@ -119,4 +119,4 @@ MIT
 
 ## Contact
 
-Stefka Georgieva · VPR Research Ltd · georgieva@vpr-research.eu
+Stefka Georgieva · VPR Research Ltd · georgieva@vpr-research.eu · https://vpr-research.eu
